@@ -1,0 +1,18 @@
+/* 
+    Created on : 7-nov-2019, 12:16:44
+    Author     : Docent
+*/
+body{
+    background-color:   red;
+    color:              white;
+}
+
+h1{
+    font-size:  56pt;
+    color:      yellow;
+}
+
+h2{
+    font-size:  32pt;
+    color:      green;
+}
