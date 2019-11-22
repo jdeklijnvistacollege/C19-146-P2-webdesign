@@ -2,17 +2,41 @@
     Created on : 7-nov-2019, 12:16:44
     Author     : Docent
 */
+:root{
+    --PrimaryColor:   #a8aa39; /* Grassgreen*/
+    --SecondaryColor: #32a8e2; /* Green */
+    --ShadeOfWhite:   #FEFFE7; /* White with a hint of green */
+    --ShadeOfBlack:   #282900; /* Green black */
+    --SecondBlack:    #686905; /* Darker green */
+}
+
 body{
-    background-color:   red;
-    color:              white;
+    background-color:   var(--PrimaryColor);
+    color:              var(--ShadeOfWhite);
 }
 
 h1{
     font-size:  56pt;
-    color:      yellow;
+    color:      var(--ShadeOfWhite);
 }
 
 h2{
     font-size:  32pt;
-    color:      green;
+    color:      var(--ShadeOfBlack);
+}
+
+a{
+    font-size:          14pt;
+    text-decoration:    none;
+    color:              var(--ShadeOfWhite);
+}
+
+a:hover a:visited{
+    color:              var(--ShadeOfBlack);
+    background-color:   var(--ShadeOfWhite);
+}
+/* ================= Classes ===================*/
+.box1{
+    background-color:   var(--SecondBlack);
+    color:              var(--ShadeOfWhite);
 }
