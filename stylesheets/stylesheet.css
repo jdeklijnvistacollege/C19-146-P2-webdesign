@@ -12,7 +12,7 @@
 
 body{
     background-color:   var(--PrimaryColor);
-    color:              var(--ShadeOfWhite);
+    color:              var(--ShadeOfBlack);
 }
 
 h1{
@@ -31,12 +31,46 @@ a{
     color:              var(--ShadeOfWhite);
 }
 
-a:hover a:visited{
+a:hover {
     color:              var(--ShadeOfBlack);
     background-color:   var(--ShadeOfWhite);
 }
 /* ================= Classes ===================*/
+/* #box{ ID's worden allen gebruikt voor JS
+getElementByID()
+*/
+    
+
 .box1{
     background-color:   var(--SecondBlack);
     color:              var(--ShadeOfWhite);
+}
+/* =============== Definition of the boxmodel class ===============*/
+.boxmodel{
+    /* border:     5px dotted black; */ /* A solid black line around the element*/
+    border-top:     4px double pink;
+    border-left:    10px double orange;
+    border-bottom:  2px solid blue;
+    border-right:   5px dashed aquamarine;
+    padding:        25px; /* Distance between the border and the element content*/
+    margin-left:    3%;  /* Distance between the left edge of the page and the element*/
+    margin-top:     5%;  /* Distance between the last element and the next*/
+    margin-bottom:  5%;  /* Distance between the content the next element*/ 
+    width:          75%; /* Width of the element*/
+    background-color: grey;
+    color:          yellow;
+}
+
+.maincontainer{
+    width:      80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: var(--SecondaryColor);
+}
+
+.contentcontainer{
+   width:      80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: var(--ShadeOfWhite); 
 }
