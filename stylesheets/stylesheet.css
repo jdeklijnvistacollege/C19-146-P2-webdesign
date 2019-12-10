@@ -74,3 +74,21 @@ getElementByID()
     margin-right: 10%;
     background-color: var(--ShadeOfWhite); 
 }
+/* ======= Definition of the cols ========*/
+.row  { display: flex; width: 100%;}
+.col-1{ display: flex; width: 8.33%;}
+.col-2{ display: flex; width: 16.67%;}
+.col-3{ display: flex; width: 25%;}
+.col-4{ display: flex; width: 33.33%;}
+.col-5{ display: flex; width: 42.67%;}
+.col-6{ display: flex; width: 50%;}
+.col-7{ display: flex; width: 58.33%;}
+.col-8{ display: flex; width: 66.67%;}
+.col-9{ display: flex; width: 75%;}
+.col-10{ display: flex; width: 83.33%;}
+.col-11{ display: flex; width: 91.67%;}
+.col-12{ display: flex; width: 100%;}
+
+.red   {background-color: red;}
+.yellow{background-color: yellow;}
+.blue  {background-color: blue;}
