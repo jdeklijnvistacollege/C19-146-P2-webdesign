@@ -11,7 +11,8 @@
 }
 
 body{
-    background-color:   var(--PrimaryColor);
+    /*background-color:   var(--PrimaryColor);*/
+    background-color: rgba(#FFFFFF,0.9);
     color:              var(--ShadeOfBlack);
 }
 
